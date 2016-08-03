@@ -454,7 +454,7 @@ public class BluetoothChatService {
             mmSocket = socket;
             InputStream tmpIn = null;
             OutputStream tmpOut = null;
-
+// 여기에 graph data 받아오면 되겠다
             // Get the BluetoothSocket input and output streams
             try {
                 tmpIn = socket.getInputStream();
